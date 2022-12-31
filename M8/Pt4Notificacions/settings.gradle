@@ -1,0 +1,2 @@
+rootProject.name='Pt4 Notificacions'
+include ':app'

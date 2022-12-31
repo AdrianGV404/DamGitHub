@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pt4 Notificacions</string>
+    <string name="default_notification_channel_id">Algo</string>
+    <string name="default_notification_channel_Admin">Administració i Gestió</string>
+    <string name="default_notification_channel_Marqueting">Comerç i Màrqueting</string>
+    <string name="default_notification_channel_Info">Informàtica i Comunicacions</string>
+    <string name="default_notification_channel_Service">Serveis a la Comunitat</string>
+    <string name="default_notification_channel_name">General</string>
+    <string name="msg_subscrit">Subscripció Correcta</string>
+    <string name="msg_subscrit_error">Error al subscriures</string>
+    <string name="msg_token_fmt">InstanceID Token: %s</string>
+    <string name="fcm_message">FCM Message</string>
+    <string-array name="Opciones">
+        <item>Administració i Gestió</item>
+        <item>Comerç i Màrqueting</item>
+        <item>Informàtica i Comunicacions</item>
+        <item>Serveis a la Comunitat</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+﻿<Window x:Class="M07_PT09.ControlWindow"
+        WindowStartupLocation="CenterScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:M07_PT09"
+        mc:Ignorable="d"
+        Title="" Height="620" Width="1024" ResizeMode="NoResize" Closed="Window_Closed">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="cancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="142" Height="90" Background="#FFFF9E9E" FontSize="36" Click="Cancelar_Click"/>
+        <Button x:Name="guardar" Content="Guardar" HorizontalAlignment="Left" Margin="174,10,0,0" VerticalAlignment="Top" Width="142" Height="90" Background="#FFABFF9E" FontSize="36" Click="Guardar_Click"/>
+        <Button x:Name="eliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="700,10,0,0" VerticalAlignment="Top" Width="142" Height="90" Background="#FFFF9E9E" FontSize="36"/>
+        <Button x:Name="add" Content="Añadir" HorizontalAlignment="Left" Margin="856,10,0,0" VerticalAlignment="Top" Width="142" Height="90" Background="#FFABFF9E" FontSize="36"/>
+        <Border BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Height="90" Margin="338,10,0,0" VerticalAlignment="Top" Width="342"/>
+        <Label Content="MESA" FontSize="72" Margin="338,0,453,491" FontWeight="Bold"/>
+        <Label x:Name="view_mesa" Content="00" FontSize="72" Margin="568,0,347,491" FontWeight="Bold"/>
+        <Button x:Name="mas_cantidad" Content="+" HorizontalAlignment="Left" Margin="856,135,0,0" VerticalAlignment="Top" Width="142" Height="90" Background="#FFB1D4FF" FontSize="72"/>
+        <Button x:Name="menos_cantidad" Content="-" HorizontalAlignment="Left" Margin="856,230,0,0" VerticalAlignment="Top" Width="142" Height="90" Background="#FFB1D4FF" FontSize="72"/>
+        <Button x:Name="recibo" Content="Recibo" HorizontalAlignment="Left" Margin="856,489,0,0" VerticalAlignment="Top" Width="142" Height="90" Background="#FFABFF9E" FontSize="36"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="159" Margin="856,325,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label Content="Total:" FontSize="48" Margin="856,325,18,194" FontWeight="Bold"/>
+        <Label x:Name="total" Content="00,00€" FontSize="36" Margin="856,395,18,124" FontWeight="Bold"/>
+        <DataGrid x:Name="datos" HorizontalAlignment="Left" Height="444" Margin="10,135,0,0" VerticalAlignment="Top" Width="832"/>
+
+    </Grid>
+</Window>

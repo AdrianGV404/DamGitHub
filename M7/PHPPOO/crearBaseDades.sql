@@ -1,0 +1,14 @@
+
+DROP DATABASE IF EXISTS usuaris2;
+
+CREATE DATABASE usuaris2;
+USE usuaris2;
+
+CREATE TABLE usuaris(
+	id INTEGER AUTO_INCREMENT,
+	nom VARCHAR(30),
+	cognoms VARCHAR(100),
+	email VARCHAR(100),
+	password VARCHAR(30),
+	PRIMARY KEY (id)
+);
